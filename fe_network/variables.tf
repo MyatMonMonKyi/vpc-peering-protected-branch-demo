@@ -45,10 +45,10 @@ variable "fe_instance_type" {
 # # Backend VPC Variables
 # #############################################################
 
-# variable "backend_vpc_address_space" {
-#   description = "The CIDR block for the backend VPC."
-#   default     = "192.168.0.0/16"
-# }
+variable "backend_vpc_address_space" {
+  description = "The CIDR block for the backend VPC."
+  default     = "192.168.0.0/16"
+}
 
 # variable "backend_prefix" {
 #   description = "The prefix for the backend resources."
